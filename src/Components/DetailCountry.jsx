@@ -6,7 +6,6 @@ export default function DetailCountry(props) {
     console.log(country)
     console.log(countriesList)
     
-// Save data to local storage
 
 
     const countryDetail = countriesList.find(countryDetail => countryDetail.cca3 === country);

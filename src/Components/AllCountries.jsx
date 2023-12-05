@@ -2,7 +2,6 @@ import { useEffect, useState } from "react"
 import { useNavigate } from "react-router-dom";
 
 
-
 export default function AllCountries(props) {
     let {countriesList} = props
     const [filter, setFilter] = useState('')

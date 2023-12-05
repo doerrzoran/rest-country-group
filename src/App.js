@@ -23,6 +23,7 @@ function App() {
       });
   }, []);
 
+  
   // Conditional rendering based on the loading state
   if (loading) {
     return <p>Loading...</p>;
